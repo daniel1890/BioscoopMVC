@@ -26,7 +26,7 @@ namespace BioscoopMVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<ApplicationDbContext>(options =>
+            services.AddDbContext<MvcMovieContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("ApplicationDbContext")));
         }
 

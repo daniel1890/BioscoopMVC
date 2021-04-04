@@ -12,9 +12,9 @@ namespace BioscoopMVC.Controllers
 {
     public class MoviesController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly MvcMovieContext _context;
 
-        public MoviesController(ApplicationDbContext context)
+        public MoviesController(MvcMovieContext context)
         {
             _context = context;
         }

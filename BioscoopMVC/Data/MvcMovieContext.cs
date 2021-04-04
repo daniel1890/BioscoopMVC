@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace BioscoopMVC.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class MvcMovieContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        public MvcMovieContext(DbContextOptions<MvcMovieContext> options) : base(options)
         {
         }
 
