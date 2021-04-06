@@ -1,11 +1,10 @@
 ﻿using BioscoopMVC.Data;
-using BioscoopMVC.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
 
-namespace MvcMovie.Models
+namespace BioscoopMVC.Models
 {
     public static class SeedData
     {
